@@ -277,10 +277,8 @@ An early version of _whirl_ was brought to life at [ING](https://github.com/ing-
 ## Options
 
 For the local environment:
-
-1. PyCharm breakpoints and debug
-2. Python built-in debugger - pdb (Python Debugger)
-
+1. PyCharm breakpoints and debug;
+2. Python built-in debugger - pdb (Python Debugger), and [pdb cheat sheet](https://kapeli.com/cheat_sheets/Python_Debugger.docset/Contents/Resources/Documents/index) can be referenced.
 ```bash
 import pdb; pdb.set_trace()
 
@@ -288,6 +286,5 @@ airflow tasks test [dag_id] [task_id] [execution_date]
 ```
 
 For the production-like environment:
-
 1. Docker Compose
 2. Whirl
